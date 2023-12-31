@@ -1,0 +1,14 @@
+.content-header {
+    padding: 0px !important;
+}
+
+.login-page,
+.register-page {
+    height: auto !important;
+    background-color: #f4f6f9 !important;
+}
+
+.login-box,
+.register-box {
+    margin-top: 40px !important;
+}

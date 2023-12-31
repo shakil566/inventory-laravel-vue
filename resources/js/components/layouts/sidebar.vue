@@ -1,11 +1,11 @@
 <template>
-<!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
 
-    <router-link to="/"  class="brand-link">
-        <!-- <img src="{{ asset('../../backend/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
-        <span class="brand-text font-weight-light">Inventory</span>
+    <router-link to="/" class="brand-link">
+      <!-- <img src="{{ asset('../../backend/dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
+      <span class="brand-text font-weight-light">Inventory</span>
     </router-link>
 
     <!-- Sidebar -->
@@ -25,14 +25,14 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
-        <li class="nav-item">
+          <li class="nav-item">
             <router-link to="/" class="nav-link active"><i class="nav-icon fas fa-tachometer-alt"></i>
-                    <p>
-                        Dashboard
-                    </p>
+              <p>
+                Dashboard
+              </p>
             </router-link>
 
-        </li>
+          </li>
 
 
 
@@ -133,7 +133,7 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-              
+
               <li class="nav-item">
                 <a href="pages/examples/faq.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
@@ -165,12 +165,13 @@
 
 
 <style scoped>
-
 .layout-navbar-fixed .wrapper .sidebar-dark-primary .brand-link:not([class*=navbar]) {
-    text-align: center;
+  text-align: center;
 }
-a.router-link-exact-active:not(.brand-link) ,a.router-link-active:not(.brand-link) {
-    background-color: rgba(255,255,255,.9) !important;
-    color: #343a40 !important;
+
+a.router-link-exact-active:not(.brand-link),
+a.router-link-active:not(.brand-link) {
+  background-color: rgba(255, 255, 255, .9) !important;
+  color: #343a40 !important;
 }
 </style>
